@@ -1,0 +1,60 @@
+@font-face {
+    
+    font-family: Seasons; 
+    src: url(Fontspring-DEMO-theseasons-bd.otf);
+}
+
+nav{
+    font-family: Seasons;
+    font-size: 1.5rem;
+}
+body {
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-family: Seasons;
+}
+
+h3{
+    color: white;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.teams{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+/*******************************************************************************/
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+/*********************Analysis********************/
+.maincon, .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}

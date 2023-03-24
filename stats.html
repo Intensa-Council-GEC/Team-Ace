@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics</title>
+    <link rel="icon" type="image/x-icon" href="images/team_ace.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/team_ace.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="stats.html">Statistics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="analysis.html">Analysis</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="player">
+
+            <div class="dropdown mt-4">
+                <h3 class="">Player Name: </h3>
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Select Player
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Bowler 1</a></li>
+                    <li><a class="dropdown-item" href="#">Batsman 2</a></li>
+                    <li><a class="dropdown-item" href="#">Bowler 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="card m-4 p-3" style="width: 25rem;">
+                <table class="table table-success table-striped-columns table-hover">
+                    <thead>
+                        <tr>
+                            <th class="text-center" scope="row" colspan="2">Batting Statistics</th>
+                        </tr>
+                        <tr>
+                            <th class="table-dark" scope="col">Stat</th>
+                            <th class="table-dark" scope="col">#</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Number of Matches</th>
+                            <td>46</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Runs</th>
+                            <td>1023</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Highest Score</th>
+                            <td colspan="1">101</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Strike Rate</th>
+                            <td colspan="1">126</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">100s</th>
+                            <td colspan="1">2</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">50s</th>
+                            <td colspan="1">5</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Number of 4s</th>
+                            <td colspan="1">30</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Number of 6s</th>
+                            <td colspan="1">10</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="card m-4 p-3" style="width: 25rem;">
+                <table class="table table-success table-striped-columns table-hover">
+                    <thead>
+                        <tr>
+                            <th class="text-center" scope="row" colspan="2">Bowling Statistics</th>
+                        </tr>
+                        <tr>
+                            <th class="table-dark" scope="col">Stat</th>
+                            <th class="table-dark" scope="col">#</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Maidens</th>
+                            <td colspan="1">5</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Economy</th>
+                            <td colspan="1">7.63</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Number of Matches</th>
+                            <td>5</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Wickets</th>
+                            <td>15</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Best Performance</th>
+                            <td colspan="1">5/46</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Strike Rate</th>
+                            <td colspan="1">10.97</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">5W</th>
+                            <td colspan="1">2</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">10W</th>
+                            <td colspan="1">0</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
